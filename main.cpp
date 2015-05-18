@@ -129,8 +129,8 @@ int main(){
 
 	while (depth < MAX_DEPTH) {
 
-	    // record starting time
-	    gettimeofday(&startTime, NULL);
+		//record starting time
+		gettimeofday(&startTime, NULL);
 
 		// these values only change when m does, so put them outside of the for loops
 
